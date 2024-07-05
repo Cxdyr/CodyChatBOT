@@ -1,0 +1,4 @@
+transformers==4.9.2
+torch==1.9.0
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.12.2  # For fuzzywuzzy to improve performance
