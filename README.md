@@ -1,6 +1,10 @@
 # Requirements
 
   * Python 3.7
+  * Transformers
+  * Fuzzywuzzy
+
+  * use pip install -r requirements.txt
 
 # Sample Execution and Output
 
