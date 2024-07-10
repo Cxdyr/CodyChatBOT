@@ -55,7 +55,7 @@ class CodyBot:
                     return response
 
         for item in self.personal_data:
-            if fuzz.partial_ratio(user_input.lower(), item['question'].lower()) > 70:
+            if fuzz.partial_ratio(user_input.lower(), item['question'].lower()) > 75:
                 response = item['answer']
                 if 'follow_up_responses' in item:
                     self.context['follow_up'] = {
